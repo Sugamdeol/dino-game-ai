@@ -1,0 +1,4 @@
+selenium
+opencv-python-headless
+stable-baselines3
+gym
