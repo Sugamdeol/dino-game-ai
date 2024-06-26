@@ -1,0 +1,16 @@
+{
+  "name": "Dino Game AI",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "extensions": [
+    "ms-python.python",
+    "ms-toolsai.jupyter",
+    "ms-python.vscode-pylance"
+  ],
+  "settings": {
+    "python.pythonPath": "/usr/local/bin/python"
+  },
+  "forwardPorts": [8888],
+  "postCreateCommand": "pip install -r requirements.txt"
+}
